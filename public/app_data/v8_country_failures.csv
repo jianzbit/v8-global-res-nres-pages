@@ -1,0 +1,3 @@
+country_id,status,reason
+ATA,missing_v6,V6 6.2.0 has no total floorspace/source coverage for production years
+VAT,failed,invalid total/NRES volume for 2020
