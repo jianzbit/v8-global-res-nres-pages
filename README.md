@@ -6,11 +6,12 @@ Standalone GitHub Pages bundle for the interactive V8 Marimo WebAssembly dashboa
 
 - `index.html` — read-only interactive WASM dashboard
 - `assets/` — generated Marimo browser runtime assets required by `index.html`
-- `public/app_data/` — final V8 dashboard tables only
+- `index.html` contains a frozen embedded copy of the four final V8 dashboard tables
 - `.nojekyll` — prevents GitHub Pages Jekyll processing
 - `.github/workflows/deploy-pages.yml` — manual GitHub Pages deployment workflow
 
 No GFA source code, raw GHS-BUILT-V rasters, or source datasets are included.
+The dashboard does not request CSV or JSON data files at runtime.
 
 ## Local preview
 
