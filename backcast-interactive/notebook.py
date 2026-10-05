@@ -6,12 +6,13 @@ app = marimo.App(width="full")
 
 @app.cell
 def _():
+    import io
     import json
     import altair as alt
     import pandas as pd
     import marimo as mo
 
-    return alt, json, mo, pd
+    return alt, io, json, mo, pd
 
 
 @app.cell
